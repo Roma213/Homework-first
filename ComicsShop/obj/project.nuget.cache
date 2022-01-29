@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QZu6lssPDNayMKFb0LmhuXDkG+lWt5tyh5KFhrZlRqoy+/scedehh/Ft+xHsBdNtkVDeGeOHXTZzZnIvC0c8mQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\ComicsShop\\ComicsShop\\ComicsShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\romat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
