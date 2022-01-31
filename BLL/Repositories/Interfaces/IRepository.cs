@@ -4,14 +4,17 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Models;
 
 namespace BLL.Repositories.Interfaces
 {
-    public interface IRepository<T>
+    public interface IRepository<T> where T : BaseModel
     {
         void Add(T entity);
 
-        void Edit(T entity);
+        void Edit(int index, T entity);
+
+        void Delete(int index);
 
         List<T> GetAll();
 

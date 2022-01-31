@@ -2,7 +2,8 @@
 
 namespace BLL.Repositories.Interfaces
 {
-    public interface ITagRepository: IRepository<Tag>
+    public interface IComicsRepository : IRepository<Comics>
     {
+        
     }
 }

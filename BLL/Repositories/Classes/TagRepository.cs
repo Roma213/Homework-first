@@ -14,20 +14,22 @@ namespace BLL.Repositories.Classes
         {
             FakeDBContext.Tags.Add(entity);
         }
-
-        // ToDo
-        public void Edit(Tag entity)
+        
+        public void Edit(int index, Tag entity)
         {
-            throw new NotImplementedException();
+            FakeDBContext.Tags[index] = entity;
         }
 
-        // ToDo
+        public void Delete(int index)
+        {
+            FakeDBContext.Tags.RemoveAt(index);
+        }
+
         public Tag FindByName(string name)
         {
             return FakeDBContext.Tags.FirstOrDefault(x=>x.Name == name);
         }
-
-        // ToDo
+        
         public List<Tag> FindMany(Expression<Func<Tag, bool>> filter = null)
         {
             if ( filter!= null )
@@ -37,17 +39,20 @@ namespace BLL.Repositories.Classes
 
             return FakeDBContext.Tags;
         }
-
-        // ToDo
+        
         public Tag FindOne(Expression<Func<Tag, bool>> filter = null)
         {
-            throw new NotImplementedException();
-        }
+            if (filter != null)
+            {
+                return FakeDBContext.Tags.FirstOrDefault(filter.Compile());
+            }
 
-        // ToDo
+            return FakeDBContext.Tags.First();
+        }
+        
         public List<Tag> GetAll()
         {
-            throw new NotImplementedException();
+            return FakeDBContext.Tags;
         }
     }
 }
