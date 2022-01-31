@@ -22,3 +22,15 @@ D:\Projects\ComicsShop\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.csproj.Co
 D:\Projects\ComicsShop\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.dll
 D:\Projects\ComicsShop\ComicsShop\Utilities\obj\Debug\net5.0\ref\Utilities.dll
 D:\Projects\ComicsShop\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.pdb
+D:\Projects\ComicsShop\Utilities\bin\Debug\net5.0\Utilities.deps.json
+D:\Projects\ComicsShop\Utilities\bin\Debug\net5.0\Utilities.dll
+D:\Projects\ComicsShop\Utilities\bin\Debug\net5.0\ref\Utilities.dll
+D:\Projects\ComicsShop\Utilities\bin\Debug\net5.0\Utilities.pdb
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.csproj.AssemblyReference.cache
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfoInputs.cache
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfo.cs
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.csproj.CoreCompileInputs.cache
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.dll
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\ref\Utilities.dll
+D:\Projects\ComicsShop\Utilities\obj\Debug\net5.0\Utilities.pdb
